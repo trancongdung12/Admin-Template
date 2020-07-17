@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #f2f3f8;
+}
+ /* ********* nav bar ************ */
+
+.nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.nav .nav-header{
+    line-height: 50px;
+    width: 15%;
+    height: 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.nav .nav-header a{ 
+    font-size: 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black ;
+}
+.nav .nav-bar{
+    width: 85%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+.nav .nav-bar .nav-content{
+    display: flex;
+    margin-left: 83%;
+    line-height: 50px;
+}
+.nav .nav-bar .nav-content .nav-item{
+    margin-left: 25px;
+}
+.nav .nav-bar .nav-content .nav-item i{
+    font-size: 20px;
+}
+.nav .nav-bar .avatar{
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+.nav .nav-bar .avatar img{
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 100%;
+}
+
+ /* ********* side bar ************ */
+.container{
+    width: 100%;
+    display: flex;
+}
+.side-bar{
+    overflow: hidden;
+    position: fixed;
+    top:51px;
+    width: 15%;
+    height: 705px;
+    background-color: white;
+    border-right: 1px solid #ddd;
+}
+.side-bar .side-content{
+    padding: 50px 30px;
+}
+.side-bar .side-content .side-item{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.side-bar .side-content .side-item a{
+    text-decoration: none;
+    color: black;
+}
+.side-bar .side-content .side-item  i{
+    margin-right: 10px;
+}
+
+
+/* ********* content ************ */
+.content{
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 82%;    
+    padding: 20px;
+}
+.content .map{
+ margin-left: 30px;
+ margin-top: 20px;
+}
+.card{
+    width: 100%;
+    display: flex;
+}
+.card .user{
+    background-color: #fbad4c;
+}
+.card .order{
+    background-color: #59d05d;
+}
+.card .product{
+    background-color: #ff646d;
+}
+.card .money{
+    background-color: #1D62F0;
+}
+.card-item{
+    display: flex;
+    margin-left: 30px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    padding: 0 50px;
+
+}
+.card-item i{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.card-item span{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+}
+footer span{
+    margin-left: 80%;
+}
+
+
+
+/* ************ PRODUCT ************* */
+.content-control{
+    display: flex;
+}
+.form-control{
+    color: #575962;
+    font-size: 18px;
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+}
+
+.form-control .form-item  p{
+    margin-left: 10px;
+}
+.form-control .form-item input{
+    height: 30px;
+    margin-left: 10px;
+    width: 95%;
+    outline: none;
+}
+.table {
+    margin-left: 20px;
+    width: 55%;
+    background-color: white;
+    border-collapse: collapse;
+}
+th{
+    background-color: #23CCEF;
+    color: white;
+    height: 50px;
+}
+th:last-child{
+    width: 150px;
+}
+td{
+    padding: 10px;
+}
+table, th, td {
+    border: 1px solid #23CCEF;
+  }
+.btn-success{
+    background-color: #59d05d;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+
